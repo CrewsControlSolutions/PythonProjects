@@ -9,9 +9,9 @@ and this, yet again, is still my note.
 ##this is a line of commenting
 
 def printMe():
-    """this is my docstring
+    """this is my docstring for printMe
     """
 
-    print("Wahoo!")
+    print("Wahoo2!")
 
 print(printMe.__doc__)
