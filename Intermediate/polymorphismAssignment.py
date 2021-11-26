@@ -3,7 +3,7 @@
 #
 # Author: Kyle Crews
 #
-# Purpose:
+# Purpose: A demonstration of parent and child classes as well as polymorphism among the child classes. The specific use case is a hypothetical car dealership interested in tracking and advertising their vehicles for sale, as well as the specific maintenance and tires for a given vehicle.
 
 
 class Car:
