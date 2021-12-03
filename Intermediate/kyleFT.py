@@ -6,7 +6,7 @@ import os
 
 def callback():
     source = fd.askdirectory()
-    folderPath.set(source)
+    folder_path.set(source)
     print(source)
     return source
 
@@ -23,26 +23,33 @@ class ParentWindow(Frame):
         self.master.configure(bg="#F0F0F0")
         arg = self.master
 
+        filepath = '(You have no directory selected.)'
+
         # 1st column
-        self.btnBrowse1 = tk.Button(self.master, width=12, height=2, text="Browse...", command=callback)
+        self.btnBrowse1 = tk.Button(self.master, width=12, height=2, text="Browse...", command = callback)
         self.btnBrowse1.grid(row=0, column=0, padx=(30, 30), pady=(50, 5), sticky=W)
         self.btnBrowse2 = tk.Button(self.master, width=12, height=2, text="Browse...")
         self.btnBrowse2.grid(row=1, column=0, padx=(30, 30), pady=(5, 5), sticky=W)
         self.btnCheck = tk.Button(self.master, width=12, height=4, text="Check for files...")
         self.btnCheck.grid(row=2, column=0, padx=(30, 30), pady=(5, 5), sticky=W)
 
+        self.filepath = folder_path
+
+
         # 2nd, 3rd, and 4th columns
-        self.txtPath = tk.Entry(self.master, width=36, text=folderPath)
-        # txtPath.insert()
-        self.txtPath.grid(row=0, column=1, rowspan=2, columnspan=3, padx=(10, 10), pady=(5, 5), sticky=W)
+        self.e1 = Entry(self.master, width=36, text=self.filepath)
+        self.e1.grid(row=0, column=1, rowspan=2, columnspan=3, padx=(10, 10), pady=(5, 5), sticky=W)
+        
         self.txtField2 = tk.Entry(self.master, width=36, text='')
         self.txtField2.grid(row=1, column=1, rowspan=1, columnspan=3, padx=(10, 10), pady=(5, 5), sticky=W)
+        
         self.btnCheck = tk.Button(self.master, width=12, height=4, text="Close Program")
         self.btnCheck.grid(row=2, column=3, padx=(50, 10), pady=(5, 5), sticky=E)
 
 
 if __name__ == "__main__":
     root = tk.Tk()
-    folderPath = StringVar()
+    folder_path = StringVar()
+    
     App = ParentWindow(root)
     root.mainloop()
