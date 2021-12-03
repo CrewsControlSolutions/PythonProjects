@@ -23,6 +23,8 @@ londonNowHour = int(londonNowFull.strftime('%H'))
 def isOpen(localTime):
     if 9 <= localTime <= 16:
         return True
+    else:
+        return False
 
 
 # When called upon, generates the output statement to display whether a company branch with a passed location and local
