@@ -6,7 +6,7 @@ These are my basic projects written in Python which demonstrate usage of various
 <ul>
  <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/Intermediate/project_phonebook'>Phonebook</a></li>
  <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/IntermediateAdvanced/FileTransferAssignment'>File Transfer App</a></li>
- <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/Advanced/Django_Checkbook'>Checkbook App</a></li>
+ <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/Advanced/Django_Checkbook/Django_Checkbook'>Checkbook App</a></li>
 </ul>
 
 <h3>Phonebook</h3>
