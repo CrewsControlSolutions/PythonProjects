@@ -7,6 +7,7 @@ These are my basic projects written in Python which demonstrate usage of various
  <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/Intermediate/project_phonebook'>Phonebook</a></li>
  <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/IntermediateAdvanced/FileTransferAssignment'>File Transfer App</a></li>
  <li><a href='https://github.com/CrewsControlSolutions/PythonProjects/tree/main/Advanced/Django_Checkbook/Django_Checkbook'>Checkbook App</a></li>
+ <li><a href='https://github.com/CrewsControlSolutions/PythonLiveScrumProject'>Bitcoin Price Prediction Competition App</a></li>
 </ul>
 
 <h3>Phonebook</h3>
@@ -19,3 +20,6 @@ Transfer .txt files between two directories seamlessly with this simple tkinter 
 An app for a bank teller that keeps track of bank accounts, transactions, and balances. Built using the Model, View, Template (MVT) pattern in Django, this Checkbook App has a well-organized GUI.  The GUI pulls its content, layout, and styling from the Template .html files containing Django Template Language (DTL). The View section is the go-between for the Model and Template sections.  The Model section contains the structuring for the sqlite3 database.
 
 Using this app, a bank teller can create, modify, and delete banking customers. In addition, for a given bank account, the bank teller can view all transactions and their dates, types (deposit or withdrawal), amounts, and descriptions.  A balance is displayed at the bottom of the transaction page and updates with every new transaction.  Lastly, the bank teller is able to manually add transactions for a given customer.  These highly functional features, coupled with an aesthetic and intuitive GUI, make the Checkbook App a useful tool for any bank teller.
+
+<h3>Bitcoin Price Prediction Competition App</h3>
+A Bitcoin competition web app written from scratch using the Django web framework. This was a "Live Project" consisting of a two-week Sprint with multiple Stories and daily Scrum meetings. For more information, see the Repository titled <a href='https://github.com/CrewsControlSolutions/PythonLiveScrumProject'>"PythonLiveScrumProject"</a>.
